@@ -6,7 +6,7 @@ import numpy as np
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-ax = plt.axes(projection='3d')
+#ax = plt.axes(projection='3d')
 
 #domain
 #zline = np.linspace(0, 15, 1000)
