@@ -5,7 +5,7 @@ from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 
-# the function that I'm going to plot
+# function function to be plotted
 def z_func(x,y):
  return (1-(x**2+y**3))*exp(-(x**2+y**2)/2)
 
